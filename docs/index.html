@@ -3,6 +3,27 @@
 
 <head>
 <title>Martin&apos;s Magic</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="js/cardlist.js"></script>
+<script src="js/cards.js"></script>
+
+<script id="cardlist-template" type="text/x-handlebars-template">
+  <p>{{cards.length}} cards</p>
+  <ul class="cards">
+    {{#each cards}}
+      <li>{{number}}:
+        {{#if count}}
+           yes 
+        {{else}}
+           no 
+        {{/if}}
+      </li>
+    {{/each}}
+  </ul>
+</script>
+
 </head>
 
 <body>
@@ -10,6 +31,9 @@
 <h1>Martin&apos;s Magic</h1>
 </header>
 <section>
-<p>This is the list of cards.</p>
+<button id='all' type='button'>All</button>
+<button id='owned' type='button'>Owned</button>
+<button id='wanted' type='button'>Wanted</button>
+<div id='cardlist'>This is the list of cards.</div>
 </section>
 <html>
