@@ -1,0 +1,33 @@
+{
+  "name": "magic",
+  "version": "1.0.0",
+  "description": "magic database",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      "browserify-css"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_PATH=./src browserify src/js/cards.js -o docs/bundle.js",
+    "serve": "http-server docs"
+  },
+  "author": "Martin Murphy <mm@martinmurphy.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "2.5.0",
+    "bootstrap": "^3.3.7",
+    "browserify-css": "^0.10.0",
+    "datatables.net": "^1.10.13",
+    "datatables.net-bs": "^1.10.13",
+    "jquery": "^3.1.1",
+    "mtgsdk": "0.3.0",
+    "request": "2.81.0"
+  },
+  "devDependencies": {
+    "@types/request": "^2.0.0",
+    "browserify": "^14.1.0",
+    "http-server": "^0.9.0"
+  }
+}

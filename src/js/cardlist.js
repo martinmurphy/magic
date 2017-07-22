@@ -1,4 +1,4 @@
-var cards = [
+module.exports = [
 {"set":"hou","number":1,"count":1},
 {"set":"hou","number":2,"count":0},
 {"set":"hou","number":3,"count":0},

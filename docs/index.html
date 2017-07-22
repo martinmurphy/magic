@@ -2,38 +2,44 @@
 <html lang="en">
 
 <head>
-<title>Martin&apos;s Magic</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-<script src="js/cardlist.js"></script>
-<script src="js/cards.js"></script>
+  <title>Martin&apos;s Magic</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<script id="cardlist-template" type="text/x-handlebars-template">
-  <p>{{cards.length}} cards</p>
-  <ul class="cards">
+  <script id="cardlist-template" type="text/x-handlebars-template">
+    <p>{{cards.length}} cards</p>
     {{#each cards}}
-      <li>{{number}}:
-        {{#if count}}
-           yes 
-        {{else}}
-           no 
+      <div class="col-md-4">
+        <h3>{{name}}</h3>
+        {{#if ../showImages}}
+          <br/><img src="{{imageUrl}}"/><br/>
         {{/if}}
-      </li>
+        {{number}} {{rarity}}&nbsp;&mdash;&nbsp;
+        {{#if count}} owned {{else}} wanted {{/if}}
+      </div>
     {{/each}}
-  </ul>
-</script>
+  </script>
 
 </head>
 
 <body>
-<header>
-<h1>Martin&apos;s Magic</h1>
-</header>
-<section>
-<button id='all' type='button'>All</button>
-<button id='owned' type='button'>Owned</button>
-<button id='wanted' type='button'>Wanted</button>
-<div id='cardlist'>This is the list of cards.</div>
-</section>
-<html>
+  <header>
+    <h1>Martin&apos;s Magic</h1>
+  </header>
+  <section>
+    <button id='all' type='button'>All</button>
+    <button id='owned' type='button'>Owned</button>
+    <button id='wanted' type='button'>Wanted</button>
+    <button id='refresh' type='button'>Refresh DB</button>
+    <input type="checkbox" id="showImages"/>
+    <div class="container">
+      <div id='cardlist'>
+      </div>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="bundle.js"></script>
+</body>
+</html>
