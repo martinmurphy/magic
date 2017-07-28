@@ -7,43 +7,50 @@ $(document).ready(function () {
   var source = $("#cardlist-template").html();
   var template = Handlebars.compile(source);
 
-  var showImages = $('#showImages').prop('checked');
-  var html = template({
-    cards: cards,
-    showImages: showImages
-  });
-  $('#cardlist').html(html);
-
-  $("#all").click(function () {
+  function render() {
+    var owned = $('#owned').prop('checked');
+    var wanted = $('#wanted').prop('checked');
+    var common = $('#common').prop('checked');
+    var uncommon = $('#uncommon').prop('checked');
+    var rare = $('#rare').prop('checked');
+    var mythic = $('#mythic').prop('checked');
+    var other = $('#other').prop('checked');
     var showImages = $('#showImages').prop('checked');
-    var html = template({
-      cards: cards,
-      showImages: showImages
-    });
-    $('#cardlist').html(html);
-  });
 
-  $("#owned").click(function () {
-    var showImages = $('#showImages').prop('checked');
     var html = template({
       cards: _.filter(cards, function (card) {
-        return card.count > 0
+        return ((owned && card.count > 0) || (wanted && card.count === 0)) &&
+          (
+            (common && card.rarity == 'Common') ||
+            (uncommon && card.rarity == 'Uncommon') ||
+            (rare && card.rarity == 'Rare') ||
+            (mythic && card.rarity == 'Mythic Rare') ||
+            (other && ['Common', 'Uncommon', 'Rare', 'Mythic Rare'].indexOf(card.rarity) < 0)
+          );
       }),
       showImages: showImages
     });
     $('#cardlist').html(html);
-  });
+  }
 
-  $("#wanted").click(function () {
-    var showImages = $('#showImages').prop('checked');
-    var html = template({
-      cards: _.filter(cards, function (card) {
-        return card.count <= 0
-      }),
-      showImages: showImages
+  $('#owned').change(function () {render();});
+  $('#wanted').change(function () {render();});
+  $('#common').change(function () {render();});
+  $('#uncommon').change(function () {render();});
+  $('#rare').change(function () {render();});
+  $('#mythic').change(function () {render();});
+  $('#other').change(function () {render();});
+  $('#showImages').change(function () {render();});
+
+  render();
+
+  function getRemoteCardDB() {
+    mtgCardInfo.getCardsInfo('hou', function (err, newCardDB) {
+      if (!err && newCardDB && newCardDB.length) {
+        cardDB = newCardDB;
+      }
     });
-    $('#cardlist').html(html);
-  });
+  }
 
   $("#refresh").click(function () {
     mtgCardInfo.getCardsInfo('hou', function (err, newCardDB) {

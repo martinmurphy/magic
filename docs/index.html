@@ -26,11 +26,15 @@
     <h1>Martin&apos;s Magic</h1>
   </header>
   <section>
-    <button id='all' type='button'>All</button>
-    <button id='owned' type='button'>Owned</button>
-    <button id='wanted' type='button'>Wanted</button>
+    <label><input type="checkbox" id="owned"/>Owned</label>
+    <label><input type="checkbox" id="wanted"/>Wanted</label>
+    <label><input type="checkbox" id="common"/>Common</label>
+    <label><input type="checkbox" id="uncommon"/>Uncommon</label>
+    <label><input type="checkbox" id="rare"/>Rare</label>
+    <label><input type="checkbox" id="mythic"/>Mythic Rare</label>
+    <label><input type="checkbox" id="other"/>Other</label>
+    <label><input type="checkbox" id="showImages"/>Show Images</label>
     <button id='refresh' type='button'>Refresh DB</button>
-    <input type="checkbox" id="showImages"/>
     <div class="container">
       <div id='cardlist'>
       </div>
