@@ -4,7 +4,7 @@ module.exports = [
 {"set":"hou","number":3,"count":1},
 {"set":"hou","number":4,"count":4},
 {"set":"hou","number":5,"count":4},
-{"set":"hou","number":6,"count":0},
+{"set":"hou","number":6,"count":1},
 {"set":"hou","number":7,"count":4},
 {"set":"hou","number":8,"count":3},
 {"set":"hou","number":9,"count":4},
