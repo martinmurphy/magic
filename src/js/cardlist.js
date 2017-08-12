@@ -96,7 +96,7 @@ module.exports = [
 {"set":"hou","number":95,"count":4},
 {"set":"hou","number":96,"count":4},
 {"set":"hou","number":97,"count":2},
-{"set":"hou","number":98,"count":0},
+{"set":"hou","number":98,"count":1},
 {"set":"hou","number":99,"count":4},
 {"set":"hou","number":100,"count":4},
 {"set":"hou","number":101,"count":4},
