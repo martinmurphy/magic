@@ -48,7 +48,7 @@ module.exports = [
 {"set":"hou","number":47,"count":3},
 {"set":"hou","number":48,"count":4},
 {"set":"hou","number":49,"count":4},
-{"set":"hou","number":50,"count":2},
+{"set":"hou","number":50,"count":3},
 {"set":"hou","number":51,"count":4},
 {"set":"hou","number":52,"count":3},
 {"set":"hou","number":53,"count":4},
@@ -56,7 +56,7 @@ module.exports = [
 {"set":"hou","number":55,"count":2},
 {"set":"hou","number":56,"count":2},
 {"set":"hou","number":57,"count":1},
-{"set":"hou","number":58,"count":1},
+{"set":"hou","number":58,"count":2},
 {"set":"hou","number":59,"count":3},
 {"set":"hou","number":60,"count":0},
 {"set":"hou","number":61,"count":4},
@@ -142,7 +142,7 @@ module.exports = [
 {"set":"hou","number":141,"count":4},
 {"set":"hou","number":142,"count":4},
 {"set":"hou","number":143,"count":4},
-{"set":"hou","number":144,"count":0},
+{"set":"hou","number":144,"count":1},
 {"set":"hou","number":145,"count":1},
 {"set":"hou","number":146,"count":1},
 {"set":"hou","number":147,"count":4},
@@ -208,4 +208,4 @@ module.exports = [
 {"set":"hou","number":207,"count":1},
 {"set":"hou","number":208,"count":1},
 {"set":"hou","number":209,"count":1}
-]
+];
