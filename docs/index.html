@@ -13,7 +13,7 @@
         {{#if ../showImages}}
           <br/><img src="{{imageUrl}}"/><br/>
         {{/if}}
-        {{number}} {{rarity}}&nbsp;&mdash;&nbsp;
+        {{set}}/{{number}} {{rarity}}&nbsp;&mdash;&nbsp;
         {{#if count}} owned {{else}} wanted {{/if}}
       </div>
     {{/each}}
@@ -26,6 +26,8 @@
     <h1>Martin&apos;s Magic</h1>
   </header>
   <section>
+    <label><input type="checkbox" id="hou"/>Hour</label>
+    <label><input type="checkbox" id="xln"/>Ixalan</label>
     <label><input type="checkbox" id="owned"/>Owned</label>
     <label><input type="checkbox" id="wanted"/>Wanted</label>
     <label><input type="checkbox" id="common"/>Common</label>
