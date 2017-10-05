@@ -51,6 +51,7 @@ function getData() {
           if (foundCard) {
             retCard = _.extend(retCard, {
               name: foundCard.name,
+              subname: "",
               rarity: foundCard.rarity,
               imageUrl: foundCard.imageUrl
             });
@@ -63,7 +64,8 @@ function getData() {
             });
             if (foundCardA && foundCardB) {
               retCard = _.extend(retCard, {
-                name: foundCardA.name + ' / ' + foundCardB.name,
+                name: foundCardA.name,
+                subname: foundCardB.name,
                 rarity: foundCardA.rarity,
                 imageUrl: foundCardA.imageUrl
               });
