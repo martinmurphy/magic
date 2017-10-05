@@ -10,7 +10,12 @@
     {{#each cards}}
       <div class="col-md-4">
         <h3>{{name}}</h3>
-        <h4>{{subname}}</h4>
+        <h4>{{#if subname}}
+              {{subname}}
+            {{else}}
+              &nbsp;
+            {{/if}}
+        </h4>
         {{#if ../showImages}}
           <br/><img src="{{imageUrl}}"/><br/>
         {{/if}}
