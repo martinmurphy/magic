@@ -33370,43 +33370,22 @@ utils.intFromLE = intFromLE;
 
 },{"bn.js":71,"minimalistic-assert":225,"minimalistic-crypto-utils":226}],158:[function(require,module,exports){
 module.exports={
-  "_args": [
-    [
-      {
-        "raw": "elliptic@^6.0.0",
-        "scope": null,
-        "escapedName": "elliptic",
-        "name": "elliptic",
-        "rawSpec": "^6.0.0",
-        "spec": ">=6.0.0 <7.0.0",
-        "type": "range"
-      },
-      "/home/mmurphy/src/magic/node_modules/browserify-sign"
-    ]
-  ],
+  "_development": true,
   "_from": "elliptic@>=6.0.0 <7.0.0",
   "_id": "elliptic@6.4.0",
-  "_inCache": true,
+  "_inBundle": false,
+  "_integrity": "sha1-ysmvh2LIWDYYcAPI3+GT5eLq5d8=",
   "_location": "/elliptic",
-  "_nodeVersion": "7.0.0",
-  "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/elliptic-6.4.0.tgz_1487798866428_0.30510620190761983"
-  },
-  "_npmUser": {
-    "name": "indutny",
-    "email": "fedor@indutny.com"
-  },
-  "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "elliptic@^6.0.0",
-    "scope": null,
-    "escapedName": "elliptic",
+    "type": "version",
+    "registry": true,
+    "raw": "elliptic@6.4.0",
     "name": "elliptic",
-    "rawSpec": "^6.0.0",
-    "spec": ">=6.0.0 <7.0.0",
-    "type": "range"
+    "escapedName": "elliptic",
+    "rawSpec": "6.4.0",
+    "saveSpec": null,
+    "fetchSpec": "6.4.0"
   },
   "_requiredBy": [
     "/browserify-sign",
@@ -33414,9 +33393,8 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz",
   "_shasum": "cac9af8762c85836187003c8dfe193e5e2eae5df",
-  "_shrinkwrap": null,
-  "_spec": "elliptic@^6.0.0",
-  "_where": "/home/mmurphy/src/magic/node_modules/browserify-sign",
+  "_spec": "elliptic@6.4.0",
+  "_where": "/Users/mmurphy/projects/magic",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -33424,6 +33402,7 @@ module.exports={
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "bn.js": "^4.4.0",
     "brorand": "^1.0.1",
@@ -33433,6 +33412,7 @@ module.exports={
     "minimalistic-assert": "^1.0.0",
     "minimalistic-crypto-utils": "^1.0.0"
   },
+  "deprecated": false,
   "description": "EC cryptography",
   "devDependencies": {
     "brfs": "^1.4.3",
@@ -33450,15 +33430,9 @@ module.exports={
     "jshint": "^2.6.0",
     "mocha": "^2.1.0"
   },
-  "directories": {},
-  "dist": {
-    "shasum": "cac9af8762c85836187003c8dfe193e5e2eae5df",
-    "tarball": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz"
-  },
   "files": [
     "lib"
   ],
-  "gitHead": "6b0d2b76caae91471649c8e21f0b1d3ba0f96090",
   "homepage": "https://github.com/indutny/elliptic",
   "keywords": [
     "EC",
@@ -33468,15 +33442,7 @@ module.exports={
   ],
   "license": "MIT",
   "main": "lib/elliptic.js",
-  "maintainers": [
-    {
-      "name": "indutny",
-      "email": "fedor@indutny.com"
-    }
-  ],
   "name": "elliptic",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/indutny/elliptic.git"
@@ -69564,43 +69530,21 @@ Store.prototype.getAllCookies = function(cb) {
 
 },{}],354:[function(require,module,exports){
 module.exports={
-  "_args": [
-    [
-      {
-        "raw": "tough-cookie@~2.3.0",
-        "scope": null,
-        "escapedName": "tough-cookie",
-        "name": "tough-cookie",
-        "rawSpec": "~2.3.0",
-        "spec": ">=2.3.0 <2.4.0",
-        "type": "range"
-      },
-      "/home/mmurphy/src/magic/node_modules/request"
-    ]
-  ],
   "_from": "tough-cookie@>=2.3.0 <2.4.0",
   "_id": "tough-cookie@2.3.2",
-  "_inCache": true,
+  "_inBundle": false,
+  "_integrity": "sha1-8IH3bkyFcg5sN6X6ztc3FQ2EByo=",
   "_location": "/tough-cookie",
-  "_nodeVersion": "7.0.0",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/tough-cookie-2.3.2.tgz_1477415232912_0.6133609430398792"
-  },
-  "_npmUser": {
-    "name": "jstash",
-    "email": "jstash@gmail.com"
-  },
-  "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "tough-cookie@~2.3.0",
-    "scope": null,
-    "escapedName": "tough-cookie",
+    "type": "version",
+    "registry": true,
+    "raw": "tough-cookie@2.3.2",
     "name": "tough-cookie",
-    "rawSpec": "~2.3.0",
-    "spec": ">=2.3.0 <2.4.0",
-    "type": "range"
+    "escapedName": "tough-cookie",
+    "rawSpec": "2.3.2",
+    "saveSpec": null,
+    "fetchSpec": "2.3.2"
   },
   "_requiredBy": [
     "/request",
@@ -69608,9 +69552,8 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.2.tgz",
   "_shasum": "f081f76e4c85720e6c37a5faced737150d84072a",
-  "_shrinkwrap": null,
-  "_spec": "tough-cookie@~2.3.0",
-  "_where": "/home/mmurphy/src/magic/node_modules/request",
+  "_spec": "tough-cookie@2.3.2",
+  "_where": "/Users/mmurphy/projects/magic",
   "author": {
     "name": "Jeremy Stashewsky",
     "email": "jstashewsky@salesforce.com"
@@ -69618,6 +69561,7 @@ module.exports={
   "bugs": {
     "url": "https://github.com/salesforce/tough-cookie/issues"
   },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Alexander Savin"
@@ -69641,16 +69585,12 @@ module.exports={
   "dependencies": {
     "punycode": "^1.4.1"
   },
+  "deprecated": false,
   "description": "RFC6265 Cookies and Cookie Jar for node.js",
   "devDependencies": {
     "async": "^1.4.2",
     "string.prototype.repeat": "^0.2.0",
     "vows": "^0.8.1"
-  },
-  "directories": {},
-  "dist": {
-    "shasum": "f081f76e4c85720e6c37a5faced737150d84072a",
-    "tarball": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.2.tgz"
   },
   "engines": {
     "node": ">=0.8"
@@ -69658,7 +69598,6 @@ module.exports={
   "files": [
     "lib"
   ],
-  "gitHead": "2610df5dc8ef7373a483d509006e5887572a4076",
   "homepage": "https://github.com/salesforce/tough-cookie",
   "keywords": [
     "HTTP",
@@ -69672,23 +69611,7 @@ module.exports={
   ],
   "license": "BSD-3-Clause",
   "main": "./lib/cookie",
-  "maintainers": [
-    {
-      "name": "awaterma",
-      "email": "awaterma@awaterma.net"
-    },
-    {
-      "name": "jstash",
-      "email": "jstash@gmail.com"
-    },
-    {
-      "name": "nexxy",
-      "email": "emily@contactvibe.com"
-    }
-  ],
   "name": "tough-cookie",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git://github.com/salesforce/tough-cookie.git"
@@ -74296,7 +74219,7 @@ module.exports = [
 {"set":"hou","number":7,"count":4},
 {"set":"hou","number":8,"count":3},
 {"set":"hou","number":9,"count":4},
-{"set":"hou","number":10,"count":3},
+{"set":"hou","number":10,"count":4},
 {"set":"hou","number":11,"count":4},
 {"set":"hou","number":12,"count":4},
 {"set":"hou","number":13,"count":4},
@@ -74325,7 +74248,7 @@ module.exports = [
 {"set":"hou","number":36,"count":0},
 {"set":"hou","number":37,"count":3},
 {"set":"hou","number":38,"count":4},
-{"set":"hou","number":39,"count":1},
+{"set":"hou","number":39,"count":2},
 {"set":"hou","number":40,"count":3},
 {"set":"hou","number":41,"count":4},
 {"set":"hou","number":42,"count":4},
@@ -74342,7 +74265,7 @@ module.exports = [
 {"set":"hou","number":53,"count":4},
 {"set":"hou","number":54,"count":4},
 {"set":"hou","number":55,"count":2},
-{"set":"hou","number":56,"count":2},
+{"set":"hou","number":56,"count":3},
 {"set":"hou","number":57,"count":1},
 {"set":"hou","number":58,"count":3},
 {"set":"hou","number":59,"count":4},
@@ -74363,7 +74286,7 @@ module.exports = [
 {"set":"hou","number":74,"count":3},
 {"set":"hou","number":75,"count":4},
 {"set":"hou","number":76,"count":4},
-{"set":"hou","number":77,"count":1},
+{"set":"hou","number":77,"count":2},
 {"set":"hou","number":78,"count":3},
 {"set":"hou","number":79,"count":4},
 {"set":"hou","number":80,"count":4},
@@ -74413,7 +74336,7 @@ module.exports = [
 {"set":"hou","number":124,"count":4},
 {"set":"hou","number":125,"count":4},
 {"set":"hou","number":126,"count":4},
-{"set":"hou","number":127,"count":3},
+{"set":"hou","number":127,"count":4},
 {"set":"hou","number":128,"count":4},
 {"set":"hou","number":129,"count":4},
 {"set":"hou","number":130,"count":1},
@@ -74442,7 +74365,7 @@ module.exports = [
 {"set":"hou","number":153,"count":3},
 {"set":"hou","number":154,"count":1},
 {"set":"hou","number":155,"count":2},
-{"set":"hou","number":156,"count":1},
+{"set":"hou","number":156,"count":2},
 {"set":"hou","number":157,"count":3},
 {"set":"hou","number":158,"count":3},
 {"set":"hou","number":159,"count":4},
@@ -74455,7 +74378,7 @@ module.exports = [
 {"set":"hou","number":166,"count":4},
 {"set":"hou","number":167,"count":4},
 {"set":"hou","number":168,"count":4},
-{"set":"hou","number":169,"count":3},
+{"set":"hou","number":169,"count":4},
 {"set":"hou","number":170,"count":4},
 {"set":"hou","number":171,"count":4},
 {"set":"hou","number":172,"count":4},
@@ -74499,7 +74422,7 @@ module.exports = [
 {"set":"xln","number":1,"count":2},
 {"set":"xln","number":2,"count":2},
 {"set":"xln","number":3,"count":0},
-{"set":"xln","number":4,"count":2},
+{"set":"xln","number":4,"count":3},
 {"set":"xln","number":5,"count":0},
 {"set":"xln","number":6,"count":4},
 {"set":"xln","number":7,"count":4},
@@ -74523,7 +74446,7 @@ module.exports = [
 {"set":"xln","number":25,"count":4},
 {"set":"xln","number":26,"count":4},
 {"set":"xln","number":27,"count":1},
-{"set":"xln","number":28,"count":3},
+{"set":"xln","number":28,"count":4},
 {"set":"xln","number":29,"count":4},
 {"set":"xln","number":30,"count":1},
 {"set":"xln","number":31,"count":4},
@@ -74540,7 +74463,7 @@ module.exports = [
 {"set":"xln","number":42,"count":0},
 {"set":"xln","number":43,"count":4},
 {"set":"xln","number":44,"count":0},
-{"set":"xln","number":45,"count":3},
+{"set":"xln","number":45,"count":4},
 {"set":"xln","number":46,"count":0},
 {"set":"xln","number":47,"count":4},
 {"set":"xln","number":48,"count":1},
@@ -74549,7 +74472,7 @@ module.exports = [
 {"set":"xln","number":51,"count":3},
 {"set":"xln","number":52,"count":4},
 {"set":"xln","number":53,"count":4},
-{"set":"xln","number":54,"count":2},
+{"set":"xln","number":54,"count":3},
 {"set":"xln","number":55,"count":1},
 {"set":"xln","number":56,"count":2},
 {"set":"xln","number":57,"count":0},
@@ -74558,7 +74481,7 @@ module.exports = [
 {"set":"xln","number":60,"count":2},
 {"set":"xln","number":61,"count":1},
 {"set":"xln","number":62,"count":2},
-{"set":"xln","number":63,"count":1},
+{"set":"xln","number":63,"count":2},
 {"set":"xln","number":64,"count":4},
 {"set":"xln","number":65,"count":4},
 {"set":"xln","number":66,"count":1},
@@ -74578,7 +74501,7 @@ module.exports = [
 {"set":"xln","number":80,"count":4},
 {"set":"xln","number":81,"count":4},
 {"set":"xln","number":82,"count":1},
-{"set":"xln","number":83,"count":3},
+{"set":"xln","number":83,"count":4},
 {"set":"xln","number":84,"count":3},
 {"set":"xln","number":85,"count":4},
 {"set":"xln","number":86,"count":2},
@@ -74611,8 +74534,8 @@ module.exports = [
 {"set":"xln","number":113,"count":4},
 {"set":"xln","number":114,"count":4},
 {"set":"xln","number":115,"count":4},
-{"set":"xln","number":116,"count":0},
-{"set":"xln","number":117,"count":0},
+{"set":"xln","number":116,"count":1},
+{"set":"xln","number":117,"count":1},
 {"set":"xln","number":118,"count":2},
 {"set":"xln","number":119,"count":3},
 {"set":"xln","number":120,"count":2},
@@ -74646,12 +74569,12 @@ module.exports = [
 {"set":"xln","number":148,"count":4},
 {"set":"xln","number":149,"count":3},
 {"set":"xln","number":150,"count":3},
-{"set":"xln","number":151,"count":3},
+{"set":"xln","number":151,"count":4},
 {"set":"xln","number":152,"count":4},
-{"set":"xln","number":153,"count":3},
+{"set":"xln","number":153,"count":4},
 {"set":"xln","number":154,"count":2},
-{"set":"xln","number":155,"count":2},
-{"set":"xln","number":156,"count":3},
+{"set":"xln","number":155,"count":3},
+{"set":"xln","number":156,"count":4},
 {"set":"xln","number":157,"count":2},
 {"set":"xln","number":158,"count":4},
 {"set":"xln","number":159,"count":0},
@@ -74692,7 +74615,7 @@ module.exports = [
 {"set":"xln","number":194,"count":4},
 {"set":"xln","number":195,"count":4},
 {"set":"xln","number":196,"count":2},
-{"set":"xln","number":197,"count":3},
+{"set":"xln","number":197,"count":4},
 {"set":"xln","number":198,"count":4},
 {"set":"xln","number":199,"count":2},
 {"set":"xln","number":200,"count":4},
@@ -74705,7 +74628,7 @@ module.exports = [
 {"set":"xln","number":207,"count":3},
 {"set":"xln","number":208,"count":2},
 {"set":"xln","number":209,"count":4},
-{"set":"xln","number":210,"count":1},
+{"set":"xln","number":210,"count":2},
 {"set":"xln","number":211,"count":4},
 {"set":"xln","number":212,"count":4},
 {"set":"xln","number":213,"count":0},
@@ -74720,7 +74643,7 @@ module.exports = [
 {"set":"xln","number":222,"count":1},
 {"set":"xln","number":223,"count":1},
 {"set":"xln","number":224,"count":0},
-{"set":"xln","number":225,"count":3},
+{"set":"xln","number":225,"count":4},
 {"set":"xln","number":226,"count":4},
 {"set":"xln","number":227,"count":0},
 {"set":"xln","number":228,"count":2},
@@ -74746,7 +74669,7 @@ module.exports = [
 {"set":"xln","number":248,"count":2},
 {"set":"xln","number":249,"count":1},
 {"set":"xln","number":250,"count":0},
-{"set":"xln","number":251,"count":2},
+{"set":"xln","number":251,"count":3},
 {"set":"xln","number":252,"count":1},
 {"set":"xln","number":253,"count":1},
 {"set":"xln","number":254,"count":1},
@@ -74755,11 +74678,11 @@ module.exports = [
 {"set":"xln","number":257,"count":1},
 {"set":"xln","number":258,"count":1},
 {"set":"xln","number":259,"count":4},
-{"set":"xln","number":260,"count":1},
+{"set":"xln","number":260,"count":2},
 {"set":"xln","number":261,"count":4},
 {"set":"xln","number":262,"count":3},
 {"set":"xln","number":263,"count":2},
-{"set":"xln","number":264,"count":3},
+{"set":"xln","number":264,"count":4},
 {"set":"xln","number":265,"count":3},
 {"set":"xln","number":266,"count":2},
 {"set":"xln","number":267,"count":2},
@@ -74857,8 +74780,7 @@ function getData() {
                 name: foundCardA.name,
                 subname: foundCardB.name,
                 rarity: foundCardA.rarity,
-                imageUrl: foundCardA.imageUrl,
-                backImage: foundCardB.imageUrl
+                imageUrl: foundCardA.imageUrl
               });
             }
 
