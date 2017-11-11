@@ -3,7 +3,8 @@
 
 <head>
   <title>Martin&apos;s Magic</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
 
   <script id="cardlist-template" type="text/x-handlebars-template">
     <p>{{cards.length}} cards</p>
@@ -32,17 +33,30 @@
     <h1>Martin&apos;s Magic</h1>
   </header>
   <section>
-    <label><input type="checkbox" id="hou"/>Hour</label>
-    <label><input type="checkbox" id="xln"/>Ixalan</label>
-    <label><input type="checkbox" id="owned"/>Owned</label>
-    <label><input type="checkbox" id="wanted"/>Wanted</label>
-    <label><input type="checkbox" id="common"/>Common</label>
-    <label><input type="checkbox" id="uncommon"/>Uncommon</label>
-    <label><input type="checkbox" id="rare"/>Rare</label>
-    <label><input type="checkbox" id="mythic"/>Mythic Rare</label>
-    <label><input type="checkbox" id="other"/>Other</label>
-    <label><input type="checkbox" id="showImages"/>Show Images</label>
-    <button id='refresh' type='button'>Refresh DB</button>
+    <section id="status">Initialising</section>
+    <nav id="mainnav">
+      <label>
+        <input type="checkbox" id="hou" />Hour</label>
+      <label>
+        <input type="checkbox" id="xln" checked/>Ixalan</label>
+      <label>
+        <input type="checkbox" id="owned" />Owned</label>
+      <label>
+        <input type="checkbox" id="wanted" checked/>Wanted</label>
+      <label>
+        <input type="checkbox" id="common" checked/>Common</label>
+      <label>
+        <input type="checkbox" id="uncommon" checked/>Uncommon</label>
+      <label>
+        <input type="checkbox" id="rare" checked/>Rare</label>
+      <label>
+        <input type="checkbox" id="mythic" checked/>Mythic Rare</label>
+      <label>
+        <input type="checkbox" id="other" checked/>Other</label>
+      <label>
+        <input type="checkbox" id="showImages" checked/>Show Images</label>
+      <button id='refresh' type='button'>Refresh DB</button>
+    </nav>
     <div class="container">
       <div id='cardlist'>
       </div>
@@ -51,7 +65,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
   <script src="bundle.js"></script>
 </body>
+
 </html>

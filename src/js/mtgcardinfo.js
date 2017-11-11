@@ -17,7 +17,6 @@ function getCardsInfo(set, cb) {
     }, function (err, res, body) {
       var more = false;
       body = JSON.parse(body);
-      console.log('err:', err, ', pageNum:', pageNum, ', body: ', JSON.stringify(body));
       pageNum++;
       if (!err) {
         retCards = retCards.concat(body.cards);
