@@ -121,6 +121,9 @@ $(document).ready(function () {
   $('#other').change(function () { render(); });
   $('#showImages').change(function () { render(); });
   $("#refresh").click(function () {
+    if (typeof (Storage) !== "undefined") {
+      localStorage.removeItem("cardDB");
+    }
     getData();
   });
 
