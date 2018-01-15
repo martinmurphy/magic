@@ -1,3 +1,3 @@
-for(var i=1; i<=209; i++) {
-   console.log(JSON.stringify({set:'hou',number:i,count:0}));
+for(var i=1; i<=205; i++) {
+   console.log(JSON.stringify({set:'rix',number:i,count:0}),',');
 }

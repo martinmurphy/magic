@@ -8,6 +8,7 @@ var template;
 function render() {
   var set_hou = $('#hou').prop('checked');
   var set_xln = $('#xln').prop('checked');
+  var set_rix = $('#rix').prop('checked');
   var owned = $('#owned').prop('checked');
   var wanted = $('#wanted').prop('checked');
   var common = $('#common').prop('checked');
@@ -20,7 +21,7 @@ function render() {
   var html = template({
     cards: _.filter(cards, function (card) {
       var filtered = ((owned && (card.count > 0)) || (wanted && (card.count === 0))) &&
-        ((set_hou && (card.set == 'hou')) || (set_xln && (card.set == 'xln'))) &&
+        ((set_hou && (card.set == 'hou')) || (set_xln && (card.set == 'xln')) || (set_rix && (card.set == 'rix'))) &&
         (
           (common && (card.rarity == 'Common')) ||
           (uncommon && (card.rarity == 'Uncommon')) ||
@@ -49,7 +50,7 @@ function getRemoteCardDB(sets, cb) {
       if (carddb) {
         return wfcb(undefined, carddb);
       }
-      mtgCardInfo.getCardsInfo('hou|xln', function (err, newCardDB) {
+      mtgCardInfo.getCardsInfo('hou|xln|rix', function (err, newCardDB) {
         localStorage.setItem("cardDB", JSON.stringify(newCardDB));
         return wfcb(err, newCardDB);
       });
@@ -60,7 +61,7 @@ function getRemoteCardDB(sets, cb) {
 }
 
 function getData(cb) {
-  getRemoteCardDB('hou|xln', function (err, newCardDB) {
+  getRemoteCardDB('hou|xln|rix', function (err, newCardDB) {
     if (!err && newCardDB && newCardDB.length) {
       cardDB = newCardDB;
       cards = _.map(cards, function (card) {
@@ -110,6 +111,7 @@ $(document).ready(function () {
 
   $('#hou').change(function () { render(); });
   $('#xln').change(function () { render(); });
+  $('#rix').change(function () { render(); });
   $('#owned').change(function () { render(); });
   $('#wanted').change(function () { render(); });
   $('#common').change(function () { render(); });
