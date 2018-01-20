@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "async": "2.5.0",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.0.0",
     "browserify-css": "^0.11.0",
     "datatables.net": "^1.10.13",
     "datatables.net-bs": "^1.10.13",
