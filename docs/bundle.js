@@ -33370,22 +33370,43 @@ utils.intFromLE = intFromLE;
 
 },{"bn.js":71,"minimalistic-assert":225,"minimalistic-crypto-utils":226}],158:[function(require,module,exports){
 module.exports={
-  "_development": true,
+  "_args": [
+    [
+      {
+        "raw": "elliptic@^6.0.0",
+        "scope": null,
+        "escapedName": "elliptic",
+        "name": "elliptic",
+        "rawSpec": "^6.0.0",
+        "spec": ">=6.0.0 <7.0.0",
+        "type": "range"
+      },
+      "/home/mmurphy/src/magic/node_modules/browserify-sign"
+    ]
+  ],
   "_from": "elliptic@>=6.0.0 <7.0.0",
   "_id": "elliptic@6.4.0",
-  "_inBundle": false,
-  "_integrity": "sha1-ysmvh2LIWDYYcAPI3+GT5eLq5d8=",
+  "_inCache": true,
   "_location": "/elliptic",
+  "_nodeVersion": "7.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/elliptic-6.4.0.tgz_1487798866428_0.30510620190761983"
+  },
+  "_npmUser": {
+    "name": "indutny",
+    "email": "fedor@indutny.com"
+  },
+  "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "elliptic@6.4.0",
-    "name": "elliptic",
+    "raw": "elliptic@^6.0.0",
+    "scope": null,
     "escapedName": "elliptic",
-    "rawSpec": "6.4.0",
-    "saveSpec": null,
-    "fetchSpec": "6.4.0"
+    "name": "elliptic",
+    "rawSpec": "^6.0.0",
+    "spec": ">=6.0.0 <7.0.0",
+    "type": "range"
   },
   "_requiredBy": [
     "/browserify-sign",
@@ -33393,8 +33414,9 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz",
   "_shasum": "cac9af8762c85836187003c8dfe193e5e2eae5df",
-  "_spec": "elliptic@6.4.0",
-  "_where": "/Users/mmurphy/projects/magic",
+  "_shrinkwrap": null,
+  "_spec": "elliptic@^6.0.0",
+  "_where": "/home/mmurphy/src/magic/node_modules/browserify-sign",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -33402,7 +33424,6 @@ module.exports={
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "bn.js": "^4.4.0",
     "brorand": "^1.0.1",
@@ -33412,7 +33433,6 @@ module.exports={
     "minimalistic-assert": "^1.0.0",
     "minimalistic-crypto-utils": "^1.0.0"
   },
-  "deprecated": false,
   "description": "EC cryptography",
   "devDependencies": {
     "brfs": "^1.4.3",
@@ -33430,9 +33450,15 @@ module.exports={
     "jshint": "^2.6.0",
     "mocha": "^2.1.0"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "cac9af8762c85836187003c8dfe193e5e2eae5df",
+    "tarball": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz"
+  },
   "files": [
     "lib"
   ],
+  "gitHead": "6b0d2b76caae91471649c8e21f0b1d3ba0f96090",
   "homepage": "https://github.com/indutny/elliptic",
   "keywords": [
     "EC",
@@ -33442,7 +33468,15 @@ module.exports={
   ],
   "license": "MIT",
   "main": "lib/elliptic.js",
+  "maintainers": [
+    {
+      "name": "indutny",
+      "email": "fedor@indutny.com"
+    }
+  ],
   "name": "elliptic",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/indutny/elliptic.git"
@@ -69530,21 +69564,43 @@ Store.prototype.getAllCookies = function(cb) {
 
 },{}],354:[function(require,module,exports){
 module.exports={
+  "_args": [
+    [
+      {
+        "raw": "tough-cookie@~2.3.0",
+        "scope": null,
+        "escapedName": "tough-cookie",
+        "name": "tough-cookie",
+        "rawSpec": "~2.3.0",
+        "spec": ">=2.3.0 <2.4.0",
+        "type": "range"
+      },
+      "/home/mmurphy/src/magic/node_modules/request"
+    ]
+  ],
   "_from": "tough-cookie@>=2.3.0 <2.4.0",
   "_id": "tough-cookie@2.3.2",
-  "_inBundle": false,
-  "_integrity": "sha1-8IH3bkyFcg5sN6X6ztc3FQ2EByo=",
+  "_inCache": true,
   "_location": "/tough-cookie",
+  "_nodeVersion": "7.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/tough-cookie-2.3.2.tgz_1477415232912_0.6133609430398792"
+  },
+  "_npmUser": {
+    "name": "jstash",
+    "email": "jstash@gmail.com"
+  },
+  "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "tough-cookie@2.3.2",
-    "name": "tough-cookie",
+    "raw": "tough-cookie@~2.3.0",
+    "scope": null,
     "escapedName": "tough-cookie",
-    "rawSpec": "2.3.2",
-    "saveSpec": null,
-    "fetchSpec": "2.3.2"
+    "name": "tough-cookie",
+    "rawSpec": "~2.3.0",
+    "spec": ">=2.3.0 <2.4.0",
+    "type": "range"
   },
   "_requiredBy": [
     "/request",
@@ -69552,8 +69608,9 @@ module.exports={
   ],
   "_resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.2.tgz",
   "_shasum": "f081f76e4c85720e6c37a5faced737150d84072a",
-  "_spec": "tough-cookie@2.3.2",
-  "_where": "/Users/mmurphy/projects/magic",
+  "_shrinkwrap": null,
+  "_spec": "tough-cookie@~2.3.0",
+  "_where": "/home/mmurphy/src/magic/node_modules/request",
   "author": {
     "name": "Jeremy Stashewsky",
     "email": "jstashewsky@salesforce.com"
@@ -69561,7 +69618,6 @@ module.exports={
   "bugs": {
     "url": "https://github.com/salesforce/tough-cookie/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Alexander Savin"
@@ -69585,12 +69641,16 @@ module.exports={
   "dependencies": {
     "punycode": "^1.4.1"
   },
-  "deprecated": false,
   "description": "RFC6265 Cookies and Cookie Jar for node.js",
   "devDependencies": {
     "async": "^1.4.2",
     "string.prototype.repeat": "^0.2.0",
     "vows": "^0.8.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "f081f76e4c85720e6c37a5faced737150d84072a",
+    "tarball": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.2.tgz"
   },
   "engines": {
     "node": ">=0.8"
@@ -69598,6 +69658,7 @@ module.exports={
   "files": [
     "lib"
   ],
+  "gitHead": "2610df5dc8ef7373a483d509006e5887572a4076",
   "homepage": "https://github.com/salesforce/tough-cookie",
   "keywords": [
     "HTTP",
@@ -69611,7 +69672,23 @@ module.exports={
   ],
   "license": "BSD-3-Clause",
   "main": "./lib/cookie",
+  "maintainers": [
+    {
+      "name": "awaterma",
+      "email": "awaterma@awaterma.net"
+    },
+    {
+      "name": "jstash",
+      "email": "jstash@gmail.com"
+    },
+    {
+      "name": "nexxy",
+      "email": "emily@contactvibe.com"
+    }
+  ],
   "name": "tough-cookie",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git://github.com/salesforce/tough-cookie.git"
@@ -75506,7 +75583,280 @@ module.exports = [
 {"set":"m19","number":311,"count":0} ,
 {"set":"m19","number":312,"count":0} ,
 {"set":"m19","number":313,"count":0} ,
-{"set":"m19","number":314,"count":0}
+{"set":"m19","number":314,"count":0},
+{"set":"grn","number":1,"count":0},
+{"set":"grn","number":2,"count":0},
+{"set":"grn","number":3,"count":0},
+{"set":"grn","number":4,"count":0},
+{"set":"grn","number":5,"count":0},
+{"set":"grn","number":6,"count":0},
+{"set":"grn","number":7,"count":0},
+{"set":"grn","number":8,"count":0},
+{"set":"grn","number":9,"count":0},
+{"set":"grn","number":10,"count":0},
+{"set":"grn","number":11,"count":0},
+{"set":"grn","number":12,"count":0},
+{"set":"grn","number":13,"count":0},
+{"set":"grn","number":14,"count":0},
+{"set":"grn","number":15,"count":0},
+{"set":"grn","number":16,"count":0},
+{"set":"grn","number":17,"count":0},
+{"set":"grn","number":18,"count":0},
+{"set":"grn","number":19,"count":0},
+{"set":"grn","number":20,"count":0},
+{"set":"grn","number":21,"count":0},
+{"set":"grn","number":22,"count":0},
+{"set":"grn","number":23,"count":0},
+{"set":"grn","number":24,"count":0},
+{"set":"grn","number":25,"count":0},
+{"set":"grn","number":26,"count":0},
+{"set":"grn","number":27,"count":0},
+{"set":"grn","number":28,"count":0},
+{"set":"grn","number":29,"count":0},
+{"set":"grn","number":30,"count":0},
+{"set":"grn","number":31,"count":0},
+{"set":"grn","number":32,"count":0},
+{"set":"grn","number":33,"count":0},
+{"set":"grn","number":34,"count":0},
+{"set":"grn","number":35,"count":0},
+{"set":"grn","number":36,"count":0},
+{"set":"grn","number":37,"count":0},
+{"set":"grn","number":38,"count":0},
+{"set":"grn","number":39,"count":0},
+{"set":"grn","number":40,"count":0},
+{"set":"grn","number":41,"count":0},
+{"set":"grn","number":42,"count":0},
+{"set":"grn","number":43,"count":0},
+{"set":"grn","number":44,"count":0},
+{"set":"grn","number":45,"count":0},
+{"set":"grn","number":46,"count":0},
+{"set":"grn","number":47,"count":0},
+{"set":"grn","number":48,"count":0},
+{"set":"grn","number":49,"count":0},
+{"set":"grn","number":50,"count":0},
+{"set":"grn","number":51,"count":0},
+{"set":"grn","number":52,"count":0},
+{"set":"grn","number":53,"count":0},
+{"set":"grn","number":54,"count":0},
+{"set":"grn","number":55,"count":0},
+{"set":"grn","number":56,"count":0},
+{"set":"grn","number":57,"count":0},
+{"set":"grn","number":58,"count":0},
+{"set":"grn","number":59,"count":0},
+{"set":"grn","number":60,"count":0},
+{"set":"grn","number":61,"count":0},
+{"set":"grn","number":62,"count":0},
+{"set":"grn","number":63,"count":0},
+{"set":"grn","number":64,"count":0},
+{"set":"grn","number":65,"count":0},
+{"set":"grn","number":66,"count":0},
+{"set":"grn","number":67,"count":0},
+{"set":"grn","number":68,"count":0},
+{"set":"grn","number":69,"count":0},
+{"set":"grn","number":70,"count":0},
+{"set":"grn","number":71,"count":0},
+{"set":"grn","number":72,"count":0},
+{"set":"grn","number":73,"count":0},
+{"set":"grn","number":74,"count":0},
+{"set":"grn","number":75,"count":0},
+{"set":"grn","number":76,"count":0},
+{"set":"grn","number":77,"count":0},
+{"set":"grn","number":78,"count":0},
+{"set":"grn","number":79,"count":0},
+{"set":"grn","number":80,"count":0},
+{"set":"grn","number":81,"count":0},
+{"set":"grn","number":82,"count":0},
+{"set":"grn","number":83,"count":0},
+{"set":"grn","number":84,"count":0},
+{"set":"grn","number":85,"count":0},
+{"set":"grn","number":86,"count":0},
+{"set":"grn","number":87,"count":0},
+{"set":"grn","number":88,"count":0},
+{"set":"grn","number":89,"count":0},
+{"set":"grn","number":90,"count":0},
+{"set":"grn","number":91,"count":0},
+{"set":"grn","number":92,"count":0},
+{"set":"grn","number":93,"count":0},
+{"set":"grn","number":94,"count":0},
+{"set":"grn","number":95,"count":0},
+{"set":"grn","number":96,"count":0},
+{"set":"grn","number":97,"count":0},
+{"set":"grn","number":98,"count":0},
+{"set":"grn","number":99,"count":0},
+{"set":"grn","number":100,"count":0},
+{"set":"grn","number":101,"count":0},
+{"set":"grn","number":102,"count":0},
+{"set":"grn","number":103,"count":0},
+{"set":"grn","number":104,"count":0},
+{"set":"grn","number":105,"count":0},
+{"set":"grn","number":106,"count":0},
+{"set":"grn","number":107,"count":0},
+{"set":"grn","number":108,"count":0},
+{"set":"grn","number":109,"count":0},
+{"set":"grn","number":110,"count":0},
+{"set":"grn","number":111,"count":0},
+{"set":"grn","number":112,"count":0},
+{"set":"grn","number":113,"count":0},
+{"set":"grn","number":114,"count":0},
+{"set":"grn","number":115,"count":0},
+{"set":"grn","number":116,"count":0},
+{"set":"grn","number":117,"count":0},
+{"set":"grn","number":118,"count":0},
+{"set":"grn","number":119,"count":0},
+{"set":"grn","number":120,"count":0},
+{"set":"grn","number":121,"count":0},
+{"set":"grn","number":122,"count":0},
+{"set":"grn","number":123,"count":0},
+{"set":"grn","number":124,"count":0},
+{"set":"grn","number":125,"count":0},
+{"set":"grn","number":126,"count":0},
+{"set":"grn","number":127,"count":0},
+{"set":"grn","number":128,"count":0},
+{"set":"grn","number":129,"count":0},
+{"set":"grn","number":130,"count":0},
+{"set":"grn","number":131,"count":0},
+{"set":"grn","number":132,"count":0},
+{"set":"grn","number":133,"count":0},
+{"set":"grn","number":134,"count":0},
+{"set":"grn","number":135,"count":0},
+{"set":"grn","number":136,"count":0},
+{"set":"grn","number":137,"count":0},
+{"set":"grn","number":138,"count":0},
+{"set":"grn","number":139,"count":0},
+{"set":"grn","number":140,"count":0},
+{"set":"grn","number":141,"count":0},
+{"set":"grn","number":142,"count":0},
+{"set":"grn","number":143,"count":0},
+{"set":"grn","number":144,"count":0},
+{"set":"grn","number":145,"count":0},
+{"set":"grn","number":146,"count":0},
+{"set":"grn","number":147,"count":0},
+{"set":"grn","number":148,"count":0},
+{"set":"grn","number":149,"count":0},
+{"set":"grn","number":150,"count":0},
+{"set":"grn","number":151,"count":0},
+{"set":"grn","number":152,"count":0},
+{"set":"grn","number":153,"count":0},
+{"set":"grn","number":154,"count":0},
+{"set":"grn","number":155,"count":0},
+{"set":"grn","number":156,"count":0},
+{"set":"grn","number":157,"count":0},
+{"set":"grn","number":158,"count":0},
+{"set":"grn","number":159,"count":0},
+{"set":"grn","number":160,"count":0},
+{"set":"grn","number":161,"count":0},
+{"set":"grn","number":162,"count":0},
+{"set":"grn","number":163,"count":0},
+{"set":"grn","number":164,"count":0},
+{"set":"grn","number":165,"count":0},
+{"set":"grn","number":166,"count":0},
+{"set":"grn","number":167,"count":0},
+{"set":"grn","number":168,"count":0},
+{"set":"grn","number":169,"count":0},
+{"set":"grn","number":170,"count":0},
+{"set":"grn","number":171,"count":0},
+{"set":"grn","number":172,"count":0},
+{"set":"grn","number":173,"count":0},
+{"set":"grn","number":174,"count":0},
+{"set":"grn","number":175,"count":0},
+{"set":"grn","number":176,"count":0},
+{"set":"grn","number":177,"count":0},
+{"set":"grn","number":178,"count":0},
+{"set":"grn","number":179,"count":0},
+{"set":"grn","number":180,"count":0},
+{"set":"grn","number":181,"count":0},
+{"set":"grn","number":182,"count":0},
+{"set":"grn","number":183,"count":0},
+{"set":"grn","number":184,"count":0},
+{"set":"grn","number":185,"count":0},
+{"set":"grn","number":186,"count":0},
+{"set":"grn","number":187,"count":0},
+{"set":"grn","number":188,"count":0},
+{"set":"grn","number":189,"count":0},
+{"set":"grn","number":190,"count":0},
+{"set":"grn","number":191,"count":0},
+{"set":"grn","number":192,"count":0},
+{"set":"grn","number":193,"count":0},
+{"set":"grn","number":194,"count":0},
+{"set":"grn","number":195,"count":0},
+{"set":"grn","number":196,"count":0},
+{"set":"grn","number":197,"count":0},
+{"set":"grn","number":198,"count":0},
+{"set":"grn","number":199,"count":0},
+{"set":"grn","number":200,"count":0},
+{"set":"grn","number":201,"count":0},
+{"set":"grn","number":202,"count":0},
+{"set":"grn","number":203,"count":0},
+{"set":"grn","number":204,"count":0},
+{"set":"grn","number":205,"count":0},
+{"set":"grn","number":206,"count":0},
+{"set":"grn","number":207,"count":0},
+{"set":"grn","number":208,"count":0},
+{"set":"grn","number":209,"count":0},
+{"set":"grn","number":210,"count":0},
+{"set":"grn","number":211,"count":0},
+{"set":"grn","number":212,"count":0},
+{"set":"grn","number":213,"count":0},
+{"set":"grn","number":214,"count":0},
+{"set":"grn","number":215,"count":0},
+{"set":"grn","number":216,"count":0},
+{"set":"grn","number":217,"count":0},
+{"set":"grn","number":218,"count":0},
+{"set":"grn","number":219,"count":0},
+{"set":"grn","number":220,"count":0},
+{"set":"grn","number":221,"count":0},
+{"set":"grn","number":222,"count":0},
+{"set":"grn","number":223,"count":0},
+{"set":"grn","number":224,"count":0},
+{"set":"grn","number":225,"count":0},
+{"set":"grn","number":226,"count":0},
+{"set":"grn","number":227,"count":0},
+{"set":"grn","number":228,"count":0},
+{"set":"grn","number":229,"count":0},
+{"set":"grn","number":230,"count":0},
+{"set":"grn","number":231,"count":0},
+{"set":"grn","number":232,"count":0},
+{"set":"grn","number":233,"count":0},
+{"set":"grn","number":234,"count":0},
+{"set":"grn","number":235,"count":0},
+{"set":"grn","number":236,"count":0},
+{"set":"grn","number":237,"count":0},
+{"set":"grn","number":238,"count":0},
+{"set":"grn","number":239,"count":0},
+{"set":"grn","number":240,"count":0},
+{"set":"grn","number":241,"count":0},
+{"set":"grn","number":242,"count":0},
+{"set":"grn","number":243,"count":0},
+{"set":"grn","number":244,"count":0},
+{"set":"grn","number":245,"count":0},
+{"set":"grn","number":246,"count":0},
+{"set":"grn","number":247,"count":0},
+{"set":"grn","number":248,"count":0},
+{"set":"grn","number":249,"count":0},
+{"set":"grn","number":250,"count":0},
+{"set":"grn","number":251,"count":0},
+{"set":"grn","number":252,"count":0},
+{"set":"grn","number":253,"count":0},
+{"set":"grn","number":254,"count":0},
+{"set":"grn","number":255,"count":0},
+{"set":"grn","number":256,"count":0},
+{"set":"grn","number":257,"count":0},
+{"set":"grn","number":258,"count":0},
+{"set":"grn","number":259,"count":0},
+{"set":"grn","number":260,"count":0},
+{"set":"grn","number":261,"count":0},
+{"set":"grn","number":262,"count":0},
+{"set":"grn","number":263,"count":0},
+{"set":"grn","number":264,"count":0},
+{"set":"grn","number":265,"count":0},
+{"set":"grn","number":266,"count":0},
+{"set":"grn","number":267,"count":0},
+{"set":"grn","number":268,"count":0},
+{"set":"grn","number":269,"count":0},
+{"set":"grn","number":270,"count":0},
+{"set":"grn","number":271,"count":0},
+{"set":"grn","number":272,"count":0},
+{"set":"grn","number":273,"count":0}
 ];
 
 },{}],372:[function(require,module,exports){
@@ -75523,6 +75873,7 @@ function render() {
   var set_rix = $('#rix').prop('checked');
   var set_dom = $('#dom').prop('checked');
   var set_m19 = $('#m19').prop('checked');
+  var set_grn = $('#grn').prop('checked');
   var owned = $('#owned').prop('checked');
   var wanted = $('#wanted').prop('checked');
   var common = $('#common').prop('checked');
@@ -75545,7 +75896,8 @@ function render() {
           (set_xln && (card.set == 'xln')) || 
           (set_rix && (card.set == 'rix')) || 
           (set_dom && (card.set == 'dom')) || 
-          (set_m19 && (card.set == 'm19')) 
+          (set_m19 && (card.set == 'm19')) ||
+          (set_grn && (card.set == 'grn')) 
         ) &&
         (
           (common && (card.rarity == 'Common')) ||
@@ -75575,7 +75927,7 @@ function getRemoteCardDB(sets, cb) {
       if (carddb) {
         return wfcb(undefined, carddb);
       }
-      mtgCardInfo.getCardsInfo('hou|xln|rix|dom|m19', function (err, newCardDB) {
+      mtgCardInfo.getCardsInfo('hou|xln|rix|dom|m19|grn', function (err, newCardDB) {
         localStorage.setItem("cardDB", JSON.stringify(newCardDB));
         return wfcb(err, newCardDB);
       });
@@ -75586,7 +75938,7 @@ function getRemoteCardDB(sets, cb) {
 }
 
 function getData(cb) {
-  getRemoteCardDB('hou|xln|rix|dom|m19', function (err, newCardDB) {
+  getRemoteCardDB('hou|xln|rix|dom|m19|grn', function (err, newCardDB) {
     if (!err && newCardDB && newCardDB.length) {
       cardDB = newCardDB;
       cards = _.map(cards, function (card) {
@@ -75639,6 +75991,7 @@ $(document).ready(function () {
   $('#rix').change(function () { render(); });
   $('#dom').change(function () { render(); });
   $('#m19').change(function () { render(); });
+  $('#grn').change(function () { render(); });
   $('#owned').change(function () { render(); });
   $('#wanted').change(function () { render(); });
   $('#common').change(function () { render(); });

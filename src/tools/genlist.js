@@ -1,3 +1,3 @@
-for(var i=1; i<=314; i++) {
-   console.log(JSON.stringify({set:'m19',number:i,count:0}),',');
+for(var i=1; i<=273; i++) {
+   console.log(JSON.stringify({set:'grn',number:i,count:0})+',');
 }
